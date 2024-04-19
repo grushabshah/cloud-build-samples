@@ -14,7 +14,7 @@
 
 # [START cloudbuild_quickstart_automate]
 steps:
-  - name: gcr.io/cloud-builders/gcloud
+  name: gcr.io/cloud-builders/gcloud
       id: Trigger application image build
       args:
         - beta
