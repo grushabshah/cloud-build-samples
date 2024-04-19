@@ -21,6 +21,6 @@ steps:
         - triggers
         - run
         - dest
-        - --branch=main
+        - --branch=.*
 
 # [END cloudbuild_quickstart_automate]
